@@ -1,0 +1,5 @@
+numbers = input()
+sorted = list(numbers)
+sorted.sort(reverse=True)
+sorted_numbers ="".join(sorted)
+print(sorted_numbers)
